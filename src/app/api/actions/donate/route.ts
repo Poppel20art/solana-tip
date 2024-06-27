@@ -30,7 +30,7 @@ export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
       title: "Support Content Creator @Poppel20",
       icon: new URL("/avatar.gif", requestUrl.origin).toString(),
-      description: "✨ Send me some Sol if you like my content on X ✨",
+      description: "✨Tip me if you like my content on X✨",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [
