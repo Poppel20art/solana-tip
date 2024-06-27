@@ -29,7 +29,7 @@ export const GET = async (req: Request) => {
 
     const payload: ActionGetResponse = {
       title: "Tip @Poppel20",
-      icon: new URL("/avator.jpg", requestUrl.origin).toString(),
+      icon: new URL("/avatar.png", requestUrl.origin).toString(),
       description: "Tip me if you like my content on X/Twitter",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
