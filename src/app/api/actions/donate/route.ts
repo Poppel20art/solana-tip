@@ -28,9 +28,9 @@ export const GET = async (req: Request) => {
     ).toString();
 
     const payload: ActionGetResponse = {
-      title: "向崔棉大师@MasterCui捐赠SOL",
+      title: "Tip @Poppel20",
       icon: new URL("/avator.jpg", requestUrl.origin).toString(),
-      description: "支持第一个中文Solana action教程作者",
+      description: "Tip me if you like my content on X/Twitter",
       label: "Transfer", // this value will be ignored since `links.actions` exists
       links: {
         actions: [
