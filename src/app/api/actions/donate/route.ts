@@ -43,8 +43,8 @@ export const GET = async (req: Request) => {
             href: `${baseHref}&amount=${amount * 10}`,
           },
           {
-            label: `Send ${amount * 100} SOL🍕`, // button text
-            href: `${baseHref}&amount=${amount * 100}`,
+            label: `Send ${amount * 50} SOL🍕`, // button text
+            href: `${baseHref}&amount=${amount * 50}`,
           },
           {
             label: "Send SOL", // button text
